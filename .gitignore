@@ -62,4 +62,4 @@ back-end/.github
 *.tsbuildinfo
 
 front-end/node_modules
-
+vendor
