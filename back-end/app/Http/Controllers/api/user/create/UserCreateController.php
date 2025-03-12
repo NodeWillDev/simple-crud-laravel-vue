@@ -11,9 +11,7 @@ class UserCreateController extends Controller
 
     public function handle(Request $request, Response $response)
     {
-        print_r([$request]);
-        return json_encode([
-            "data" => "data"
-        ]);
+
+        return new Response(["data" => "test"], 200);
     }
 }
