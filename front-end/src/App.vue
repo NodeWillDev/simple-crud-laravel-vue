@@ -1,3 +1,7 @@
+<script setup>
+import LineComponent from './components/lines/LineComponent.vue';
+</script>
+
 <template>
-  <h1 class="text-teal-600">Hello World</h1>
+  <LineComponent />
 </template>
