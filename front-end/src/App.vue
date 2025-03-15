@@ -1,7 +1,7 @@
 <script setup>
-import LineComponent from './components/lines/LineComponent.vue';
+import MainSearchComponents from './components/MainSearchComponents.vue';
 </script>
 
 <template>
-  <!-- <LineComponent /> -->
+    <MainSearchComponents />
 </template>
