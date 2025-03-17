@@ -1,9 +1,10 @@
 <script setup>
 import MainSearchComponents from './components/MainSearchComponents.vue';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import BackgroundStyleComponent from './components/style/BackgroundStyleComponent.vue';
 </script>
 
 <template>
+    <BackgroundStyleComponent />
     <div class="w-screen h-screen flex items-center">
         <MainSearchComponents :icon="['fas', 'magnifying-glass']" />
     </div>
