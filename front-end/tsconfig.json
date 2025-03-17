@@ -10,6 +10,11 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "esModuleInterop": true,
+        "paths": {
+            "@user/*": [
+                "./src/types/user/*"
+            ]
+        },
         "lib": [
             "esnext",
             "dom"
@@ -19,6 +24,6 @@
         "src/**/*.ts",
         "src/**/*.d.ts",
         "src/**/*.tsx",
-        "src/**/*.vue"
+        "src/**/*.vue",
     ]
 }
