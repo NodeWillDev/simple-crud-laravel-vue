@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\api\user\create\UserCreate;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::post("user/create", [UserCreate::class, 'handle']);
